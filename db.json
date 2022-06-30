@@ -95,7 +95,9 @@
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
       "roles": {
-        "admin": true
+        "admin": true,
+        "mesero": false,
+        "cocina": false
       },
       "id": 1
     },
@@ -103,9 +105,32 @@
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "roles": {
-        "admin": true
+        "admin": true,
+        "mesero": false,
+        "cocina": false
       },
       "id": 2
+    },
+
+    {
+      "email": "meseroprueba.hopper@systers.xyz",
+      "password": "$2a$10$CExNpYxEKSDXY.WgcTOAW.dCeoFAqv47u1fQ8RAJp3qVll/g9IyvS",
+      "roles": {
+        "mesero": true,
+        "admin": false,
+        "cocina": false
+      },
+      "id": 3
+    },
+    {
+      "email": "cocineroprueba.hopper@systers.xyz",
+      "password": "$2a$10$ZoVmy6wdOktZy/Esqewqaug4SoWdocddwjT/7YN6Lzxd15oi5ib4i",
+      "roles": {
+        "mesero": false,
+        "admin": false,
+        "cocina": true
+      },
+      "id": 4
     }
   ]
 }

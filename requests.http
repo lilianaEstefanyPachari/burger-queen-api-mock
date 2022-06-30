@@ -26,3 +26,27 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
     "status": "delivered",
     "dateProcessed": "2022-03-05 16:00"
 }
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MzQwNzczMiwiZXhwIjoxNjUzNDExMzMyLCJzdWIiOiIyIn0.kqH9YfTp3oboZ4bfbWy3lvmuouM9-qDQvCeFtYZ7dsk"
+ {
+    "email": "meseroprueba.hopper@systers.xyz",
+    "password": "123456",
+    "roles": {"mesero":true,
+            "admin":false,
+            "cocina":false}
+}
+
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MzU4MDk0OCwiZXhwIjoxNjUzNTg0NTQ4LCJzdWIiOiIyIn0.07nePb0S1F2cJbD2XqwgCTkZ9Yid2vk7wfKh0hmTTkg"
+
+ {
+    "email": "cocineroprueba.hopper@systers.xyz",
+    "password": "123456",
+    "roles": {"mesero":false,
+            "admin":false,
+            "cocina":true}
+}
