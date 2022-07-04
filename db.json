@@ -88,6 +88,13 @@
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "hamburguesa",
+      "price": 15,
+      "image": "https://img.freepik.com/vector-gratis/hamburguesa-grande-realista-sobre-fondo-blanco-ilustracion-vectorial_532963-95.jpg?w=2000",
+      "type": "Desayuno",
+      "id": 4
     }
   ],
   "users": [
@@ -111,7 +118,6 @@
       },
       "id": 2
     },
-
     {
       "email": "meseroprueba.hopper@systers.xyz",
       "password": "$2a$10$CExNpYxEKSDXY.WgcTOAW.dCeoFAqv47u1fQ8RAJp3qVll/g9IyvS",
@@ -131,6 +137,16 @@
         "cocina": true
       },
       "id": 4
+    },
+    {
+      "email": "fresa@gmail.com",
+      "password": "$2a$10$b6pe8s7RmIjTTjugil0TV.1JQcU1Z4PFxrtkLMnQ6K3pqvE/xsxzC",
+      "roles": {
+        "mesero": true,
+        "admin": false,
+        "cocina": false
+      },
+      "id": 5
     }
   ]
 }
