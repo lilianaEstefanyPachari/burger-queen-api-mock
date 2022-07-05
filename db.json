@@ -95,6 +95,41 @@
       "image": "https://img.freepik.com/vector-gratis/hamburguesa-grande-realista-sobre-fondo-blanco-ilustracion-vectorial_532963-95.jpg?w=2000",
       "type": "Desayuno",
       "id": 4
+    },
+    {
+      "name": "cafe",
+      "price": 10,
+      "image": "https://denkibuil.com/201811/wp-content/uploads/2020/10/coffee-9934.png",
+      "type": "Desayuno",
+      "id": 5
+    },
+    {
+      "name": "papas",
+      "price": 3,
+      "image": "https://i.pinimg.com/564x/7f/a6/36/7fa6361670b0059af48f9bf62853fa8a.jpg",
+      "type": "Almuerzo",
+      "id": 6
+    },
+    {
+      "name": "té",
+      "price": 5,
+      "image": "https://i.pinimg.com/564x/d2/8a/5b/d28a5b33827c8f1b6a0db11354ab3f42.jpg",
+      "type": "Almuerzo",
+      "id": 7
+    },
+    {
+      "name": "cafe americano",
+      "price": 7,
+      "image": "https://media.istockphoto.com/vectors/cartoon-cup-of-hot-coffee-or-tea-illustration-vector-id1226350048",
+      "type": "Almuerzo",
+      "id": 8
+    },
+    {
+      "name": "pan",
+      "price": 5,
+      "image": "https://thumbs.dreamstime.com/b/pan-del-pan-32002606.jpg",
+      "type": "Almuerzo",
+      "id": 9
     }
   ],
   "users": [
