@@ -130,6 +130,13 @@
       "image": "https://thumbs.dreamstime.com/b/pan-del-pan-32002606.jpg",
       "type": "Almuerzo",
       "id": 9
+    },
+    {
+      "name": "pikachu",
+      "price": 10,
+      "image": "https://assets.puzzlefactory.com/puzzle/254/191/original.webp",
+      "type": "Desayuno",
+      "id": 10
     }
   ],
   "users": [
