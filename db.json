@@ -28,8 +28,9 @@
           }
         }
       ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
+      "status": "delivered",
+      "dataEntry": "2022-03-05 15:00",
+      "dateProcessed": "2022-07-13T05:22:00.000Z"
     },
     {
       "id": 2,
@@ -62,13 +63,87 @@
       "status": "delivered",
       "dataEntry": "2022-03-05 15:00",
       "dateProcessed": "2022-03-05 16:00"
+    },
+    {
+      "userId": "3",
+      "client": "Lili",
+      "products": [
+        {
+          "qty": 2,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-07-13T05:21:00.000Z"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-07-13T05:21:00.000Z"
+          }
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "2022-07-13T05:21:00.000Z",
+      "id": 3,
+      "dateProcessed": "2022-07-13T05:22:00.000Z"
+    },
+    {
+      "userId": "3",
+      "client": "Mary",
+      "products": [
+        {
+          "qty": 3,
+          "product": {
+            "id": 9,
+            "name": "Jugo de frutas natural",
+            "price": 7,
+            "image": "https://i.pinimg.com/564x/c7/bf/ff/c7bfff7cbafc5d1b572e2ac458150f6c.jpg",
+            "type": "Desayuno",
+            "dateEntry": "2022-07-13T05:25:00.000Z"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-07-13T05:25:00.000Z"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-07-13T05:25:00.000Z"
+          }
+        }
+      ],
+      "status": "pending",
+      "dataEntry": "2022-07-13T05:25:00.000Z",
+      "id": 4
     }
   ],
   "products": [
     {
       "id": 1,
       "name": "Sandwich de jamón y queso",
-      "price": 1000,
+      "price": 10,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
@@ -76,7 +151,7 @@
     {
       "id": 2,
       "name": "Café americano",
-      "price": 500,
+      "price": 5,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
@@ -84,59 +159,73 @@
     {
       "id": 3,
       "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "price": 5,
+      "image": "https://i.pinimg.com/564x/81/d9/91/81d9914bc28e00c827c15ebec99d6532.jpg",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "name": "hamburguesa",
-      "price": 15,
-      "image": "https://img.freepik.com/vector-gratis/hamburguesa-grande-realista-sobre-fondo-blanco-ilustracion-vectorial_532963-95.jpg?w=2000",
-      "type": "Desayuno",
-      "id": 4
-    },
-    {
-      "name": "cafe",
-      "price": 10,
-      "image": "https://denkibuil.com/201811/wp-content/uploads/2020/10/coffee-9934.png",
+      "name": "Café con leche",
+      "price": 7,
+      "image": "https://i.pinimg.com/564x/8b/25/c0/8b25c0e5228710496154f991d298920e.jpg",
       "type": "Desayuno",
       "id": 5
     },
     {
-      "name": "papas",
-      "price": 3,
-      "image": "https://i.pinimg.com/564x/7f/a6/36/7fa6361670b0059af48f9bf62853fa8a.jpg",
-      "type": "Almuerzo",
-      "id": 6
-    },
-    {
-      "name": "té",
-      "price": 5,
-      "image": "https://i.pinimg.com/564x/d2/8a/5b/d28a5b33827c8f1b6a0db11354ab3f42.jpg",
-      "type": "Almuerzo",
-      "id": 7
-    },
-    {
-      "name": "cafe americano",
+      "name": "Jugo de frutas natural",
       "price": 7,
-      "image": "https://media.istockphoto.com/vectors/cartoon-cup-of-hot-coffee-or-tea-illustration-vector-id1226350048",
-      "type": "Almuerzo",
-      "id": 8
-    },
-    {
-      "name": "pan",
-      "price": 5,
-      "image": "https://thumbs.dreamstime.com/b/pan-del-pan-32002606.jpg",
-      "type": "Almuerzo",
+      "image": "https://i.pinimg.com/564x/c7/bf/ff/c7bfff7cbafc5d1b572e2ac458150f6c.jpg",
+      "type": "Desayuno",
       "id": 9
     },
     {
-      "name": "pikachu",
+      "name": "Hamburguesa simple",
       "price": 10,
-      "image": "https://assets.puzzlefactory.com/puzzle/254/191/original.webp",
-      "type": "Desayuno",
+      "image": "https://i.pinimg.com/564x/1d/ed/36/1ded366c71429ea33389328d2d4619a6.jpg",
+      "type": "Almuerzo",
       "id": 10
+    },
+    {
+      "name": "Hamburguesa doble",
+      "price": 15,
+      "image": "https://i.pinimg.com/564x/fd/b9/53/fdb953e747052b088eda7e2d8bc116b9.jpg",
+      "type": "Almuerzo",
+      "id": 11
+    },
+    {
+      "name": "Papas fritas",
+      "price": 5,
+      "image": "https://i.pinimg.com/564x/4b/35/de/4b35dec44587282ef4a0f7a97e4a0eda.jpg",
+      "type": "Almuerzo",
+      "id": 12
+    },
+    {
+      "name": "Aros de cebolla",
+      "price": 5,
+      "image": "https://i.pinimg.com/564x/c2/e3/97/c2e3970f0b2f53fa0077f07618787811.jpg",
+      "type": "Almuerzo",
+      "id": 13
+    },
+    {
+      "name": "Agua 750ml",
+      "price": 7,
+      "image": "https://i.pinimg.com/564x/92/a7/8f/92a78fad9397395758b74416b1e097a8.jpg",
+      "type": "Almuerzo",
+      "id": 14
+    },
+    {
+      "name": "Bebida/gaseosa 500ml",
+      "price": 7,
+      "image": "https://i.pinimg.com/564x/f8/fb/d9/f8fbd973be989d11e0028430898bcbfa.jpg",
+      "type": "Almuerzo",
+      "id": 15
+    },
+    {
+      "name": "Bebida/gaseosa 750ml\t",
+      "price": 10,
+      "image": "https://i.pinimg.com/564x/84/94/46/849446095853e059113efae57e720af4.jpg",
+      "type": "Almuerzo",
+      "id": 16
     }
   ],
   "users": [
@@ -181,14 +270,14 @@
       "id": 4
     },
     {
-      "email": "fresa@gmail.com",
-      "password": "$2a$10$b6pe8s7RmIjTTjugil0TV.1JQcU1Z4PFxrtkLMnQ6K3pqvE/xsxzC",
+      "email": "mesero1@gmail.com",
+      "password": "$2a$10$Ajsg2aLeGErkZd7JuVn83egIN9jXSoub/o5FPIZlVW3p15U4nHcmm",
       "roles": {
         "mesero": true,
         "admin": false,
         "cocina": false
       },
-      "id": 5
+      "id": 6
     }
   ]
 }
